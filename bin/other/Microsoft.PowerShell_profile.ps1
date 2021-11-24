@@ -1,0 +1,1 @@
+oh-my-posh --init --shell pwsh --config C:\Users\Ceasar\AppData\Local\Programs\oh-my-posh\themes\ohmyposhv3-v2.json | Invoke-Expression
