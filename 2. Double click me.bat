@@ -1,5 +1,3 @@
-Set-WallPaper -value ".\bin\other\wp.png"
-
 REG IMPORT ".\bin\regs\Add_Open_in_Windows_Terminal_context_menu_for_all_users.reg"
 REG IMPORT ".\bin\regs\Add_Open_in_Windows_Terminal_expandable_context_menu.reg"
 REG IMPORT ".\bin\regs\Numlock_on_startup.reg"
@@ -35,7 +33,7 @@ cmd /c "".\bin\installers\paint.exe""
 cmd /c "".\bin\installers\vm.exe""
 cmd /c "".\bin\installers\steam1.exe""
 cmd /c "".\bin\installers\ts3.exe""
-cmd /c "".\bin\installers\unityhub.exe""
+cmd /c "".\bin\installers\uhub.exe""
 cmd /c "".\bin\installers\uplay.exe""
 cmd /c "".\bin\installers\va.exe""
 cmd /c "".\bin\installers\fz.exe""
@@ -43,5 +41,6 @@ cmd /c "".\bin\installers\pwsh7.msi""
 cmd /c "".\bin\installers\ytm.exe""
 cmd /c "".\bin\installers\vlc.exe""
 cmd /c "".\bin\installers\Team.exe""
+cmd /c "".\bin\installers\oo64.exe""
 
 powercfg.exe /hibernate off
