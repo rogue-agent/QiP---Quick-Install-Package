@@ -42,5 +42,6 @@ cmd /c "".\bin\installers\ytm.exe""
 cmd /c "".\bin\installers\vlc.exe""
 cmd /c "".\bin\installers\Team.exe""
 cmd /c "".\bin\installers\oo64.exe""
+cmd /c "".\bin\installers\Bliz.exe""
 
 powercfg.exe /hibernate off
