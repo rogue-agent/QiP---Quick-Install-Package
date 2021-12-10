@@ -1,2 +1,0 @@
-mstsc /admin
-exit

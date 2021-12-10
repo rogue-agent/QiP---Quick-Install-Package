@@ -1,3 +1,3 @@
 Windows Registry Editor Version 5.00
-[Computer\HKEY_USERS\.DEFAULT\Control Panel\Keyboard]
+[HKEY_USERS\.DEFAULT\Control Panel\Keyboard]
 "InitialKeyboardIndicators"=dword:80000002

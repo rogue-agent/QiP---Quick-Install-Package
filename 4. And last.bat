@@ -9,13 +9,11 @@
 #xcopy /s/z/i ".\bin\minecraft\.feedthebeast" "%USERPROFILE%\AppData\Roaming\.feedthebeast\"
 #xcopy /s/z/i ".\bin\minecraft\.technic" "%USERPROFILE%\AppData\Roaming\.technic\"
 
-xcopy /s/z/i ".\bin\bd\plugins" "%USERPROFILE%\AppData\Roaming\betterdiscord\plugins\"
-xcopy /s/z/i ".\bin\bd\themes" "%USERPROFILE%\AppData\Roaming\betterdiscord\themes\"
+#xcopy /s/z/i ".\bin\bd\plugins" "%USERPROFILE%\AppData\Roaming\betterdiscord\plugins\"
+#xcopy /s/z/i ".\bin\bd\themes" "%USERPROFILE%\AppData\Roaming\betterdiscord\themes\"
 
 xcopy /s/z/i ".\bin\other\Microsoft.PowerShell_profile.ps1" "%USERPROFILE%\Documents\PowerShell"
 xcopy /s/z/i ".\bin\other\ohmyposhv3-v2.json" "%LOCALAPPDATA%\Programs\oh-my-posh\themes"
-
-cmd /c "".\bin\symlink.bat""
 
 cmd /c ""%USERPROFILE%\Desktop\Minecraft.lnk""
 cmd /c ""%USERPROFILE%\Desktop\Technic Launcher.lnk""
