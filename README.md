@@ -65,6 +65,6 @@ dir fonts/*.ttf | %{ $fonts.CopyHere($_.fullname) }` will install all fonts in t
 17. do whatever and have fun learning a little bit of powershell and batch
 
 ### Todo:
-Instead of including installers automatically download installers from the web
-Prompt the user to choose which programs to install from a list
-Simplify setup
+- Instead of including installers automatically download installers from the web
+- Prompt the user to choose which programs to install from a list
+- Simplify setup
