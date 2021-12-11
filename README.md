@@ -40,7 +40,7 @@ If you are on the pc that is going to be clean installed and it has 1 ore more o
 20. You can apply the 4k wallpaper that was included in the other folder by right clicking it and setting is a wallpaper on the desktop.
 21. Enjoy
 
-### How configure, for advanced users:
+### How to configure, for advanced users:
 1. in batch `cmd /c "".\folder path\filename.ext""` will start any program
 2. `%USERPROFILE%` replaces `c:\users\username` folder
 3. `%APPDATA%` replaces `c:\users\username\appdata\roaming` folder
