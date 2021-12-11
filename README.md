@@ -1,9 +1,9 @@
-#QiP - Quick Install Package
+# QiP - Quick Install Package
 
-###What is this for?
+### What is this for?
 When you want to reinstall Windows but don't want to go through the hassle of downloading and installing every software and changing every setting.
 
-###What do these Batch files do?
+### What do these Batch files do?
 `0.Libraries.bat` : starts DirectX web version installer and all available packaged VC Redistributables installers via `install_all.bat` by W1zzard @ TechPowerUp
 `1.Drivers.bat` : starts specified driver installers
 `2.Double click me.bat` : starts symlink.bat to create symbolic links with folders that might be of interest to save on another disk so you do not need to back it up later. starts powershell 7.2 installer and runs `pw.ps1` file with winget commands to install list of applications and to install packaged fonts. then starts installer files for specified programs and disables hibernation mode in windows.
@@ -13,7 +13,7 @@ When you want to reinstall Windows but don't want to go through the hassle of do
 (you can open all files with notepad or other text editor by right clicking and clicking edit in the context menu)
 (you can run .bat files by double clicking on them and .ps1 by opening powershell, going into the folder with cd filepath and .\filename.ps1)
 
-###How to use?
+### How to use?
 If you have a running windows computer:
 0. Download this package by clicking on the green button on top of this page and then Download zip, copy the files into a folder
 1. Download directx web installer from https://www.microsoft.com/en-us/download/details.aspx?id=35 rename it dxwebsetup.exe and move it into `libs` folder
@@ -40,7 +40,7 @@ If you are on the pc that is going to be clean installed and it has 1 ore more o
 20. You can apply the 4k wallpaper that was included in the other folder by right clicking it and setting is a wallpaper on the desktop.
 21. Enjoy
 
-###How configure, for advanced users:
+### How configure, for advanced users:
 1. in batch `cmd /c "".\folder path\filename.ext""` will start any program
 2. `%USERPROFILE%` replaces `c:\users\username` folder
 3. `%APPDATA%` replaces `c:\users\username\appdata\roaming` folder
@@ -63,7 +63,7 @@ dir fonts/*.ttf | %{ $fonts.CopyHere($_.fullname) }` will install all fonts in t
 16. if you want to have a cool terminal you can check this video, Scott Hanselman made a pretty nice one that I use:  https://www.youtube.com/watch?v=VT2L1SXFq9U&t=1047s
 17. do whatever and have fun learning a little bit of powershell and batch
 
-###Todo:
+### Todo:
 Instead of including installers automatically download installers from the web
 Prompt the user to choose which programs to install from a list
 Simplify setup
