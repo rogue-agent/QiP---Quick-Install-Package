@@ -4,14 +4,14 @@
 When you want to reinstall Windows but don't want to go through the hassle of downloading and installing every software and changing every setting.
 
 ### What do these Batch files do?
-`0.Libraries.bat` : starts DirectX web version installer and all available packaged VC Redistributables installers via `install_all.bat` by W1zzard @ TechPowerUp
-`1.Drivers.bat` : starts specified driver installers
-`2.Double click me.bat` : starts symlink.bat to create symbolic links with folders that might be of interest to save on another disk so you do not need to back it up later. starts powershell 7.2 installer and runs `pw.ps1` file with winget commands to install list of applications and to install packaged fonts. then starts installer files for specified programs and disables hibernation mode in windows.
-`3.After Restart.bat` : imports registries copies game shortcuts on to the desktop, starts ts3 package installers, starts mod installers and copies windows terminal settings
-`4. And last.bat` : copies powershell profile and ohmyposh theme file, starts game shortcuts to download latest versions and mod installer
+- `0.Libraries.bat` : starts DirectX web version installer and all available packaged VC Redistributables installers via `install_all.bat` by W1zzard @ TechPowerUp
+- `1.Drivers.bat` : starts specified driver installers
+- `2.Double click me.bat` : starts symlink.bat to create symbolic links with folders that might be of interest to save on another disk so you do not need to back it up later. starts powershell 7.2 installer and runs `pw.ps1` file with winget commands to install list of applications and to install packaged fonts. then starts installer files for specified programs and disables hibernation mode in windows.
+- `3.After Restart.bat` : imports registries copies game shortcuts on to the desktop, starts ts3 package installers, starts mod installers and copies windows terminal settings
+- `4. And last.bat` : copies powershell profile and ohmyposh theme file, starts game shortcuts to download latest versions and mod installer
 
-(you can open all files with notepad or other text editor by right clicking and clicking edit in the context menu)
-(you can run .bat files by double clicking on them and .ps1 by opening powershell, going into the folder with cd filepath and .\filename.ps1)
+- you can open all files with notepad or other text editor by right clicking and clicking edit in the context menu
+- you can run .bat files by double clicking on them and .ps1 by opening powershell, going into the folder with cd filepath and .\filename.ps1
 
 ### How to use?
 If you have a running windows computer:
