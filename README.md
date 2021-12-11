@@ -12,7 +12,7 @@ When you want to reinstall Windows but don't want to go through the hassle of do
 
 Important notes for new users:
 - you can open all files with notepad or other text editor by right clicking and clicking edit in the context menu
-- you can run .bat files by double clicking on them and .ps1 by opening powershell, going into the folder with cd filepath and .\filename.ps1
+- you can run .bat files by double clicking on them and .ps1 by opening powershell, going into the folder with `cd filepath` and `.\filename.ps1`
 
 ### How to use?
 If you have a running windows computer:
